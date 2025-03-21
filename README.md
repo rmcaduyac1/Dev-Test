@@ -1,4 +1,4 @@
-# Cybersecurity Insights Chatbot
+# Basic RAG Chatbot
 
 This repository contains a RAG chatbot designed to answer cybersecurity and tech-related questions. The chatbot uses a combination of direct response and tool-based document retrieval to provide concise, contextually relevant answers. It leverages the OpenAI GPT model, vector search with Chroma, and a state graph architecture to dynamically process user queries.
 
@@ -21,7 +21,8 @@ This repository contains a RAG chatbot designed to answer cybersecurity and tech
   - `langchain_chroma`
   - `langgraph`
   - `python-dotenv`
-- An OpenAI API key. Create a `.env` file in the root directory with:
+- An OpenAI API key. Create a `.env` file in the root directory and write your OPENAI_API_KEY.
 
 ## How to run?
-1. run git clone
+1. From the vscode, clone the repository: git clone https://github.com/rmcaduyac1/Dev-Test.git
+2. From the root terminal of the project, run "poetry run python rag_pipeline.py"
