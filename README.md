@@ -25,4 +25,4 @@ This repository contains a RAG chatbot designed to answer cybersecurity and tech
 
 ## How to run?
 1. From the vscode, clone the repository: git clone https://github.com/rmcaduyac1/Dev-Test.git
-2. From the root terminal of the project, run "poetry run python rag_pipeline.py"
+2. From the root terminal of the project Dev-Test, run "poetry run python rag_pipeline.py"
