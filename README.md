@@ -26,4 +26,8 @@ This repository contains a RAG chatbot designed to answer cybersecurity and tech
 ## How to run?
 1. From the vscode, clone the repository: `git clone https://github.com/rmcaduyac1/Dev-Test.git`
 2. From the root terminal of the project Dev-Test, run `poetry install --no-root`
-3. Then, run `poetry run python rag_pipeline.py`
+3. Activate virtual environment `source .venv/bin/activate`
+4. To test in the command line, run `poetry run python rag_pipeline.py`
+5. To test API endpoint, run `poetry run python app.py`. This should run fastapi with chat endpoint: `http://localhost:8000/chat`
+6. You can test the API endpoint using Postman (see sample below)
+![Sample Postman Query](sample_testing.png)
