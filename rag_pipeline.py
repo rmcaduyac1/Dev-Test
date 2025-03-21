@@ -136,7 +136,7 @@ def init_agent_executor(checkpoint, tools = retriever_tools(), prompt = SYSTEM_P
     return graph
 
 # Function to process user message
-def chatbot_response(memory, session_id: str, query: str):
+def chatbot_response(session_id: str, query: str, memory = MemorySaver()):
     graph = init_agent_executor(checkpoint= memory)
     
     # For unique session id
@@ -162,4 +162,4 @@ if __name__ == "__main__":
 
     while True:
         query = input("Please enter your query: ")
-        print(chatbot_response(memory, session_id, query))
+        print(chatbot_response(session_id, query, memory))
