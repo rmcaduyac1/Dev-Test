@@ -24,6 +24,6 @@ This repository contains a RAG chatbot designed to answer cybersecurity and tech
 - An OpenAI API key. Create a `.env` file in the root directory and write your OPENAI_API_KEY.
 
 ## How to run?
-1. From the vscode, clone the repository: git clone https://github.com/rmcaduyac1/Dev-Test.git
-2. From the root terminal of the project Dev-Test, run "poetry install --no-root"
-3. Then, run "poetry run python rag_pipeline.py"
+1. From the vscode, clone the repository: `git clone https://github.com/rmcaduyac1/Dev-Test.git`
+2. From the root terminal of the project Dev-Test, run `poetry install --no-root`
+3. Then, run `poetry run python rag_pipeline.py`
